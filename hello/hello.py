@@ -1,4 +1,4 @@
- 第一个注释
+# 第一个注释
 print("hello,python")
 print("hello,world")
 # 记录账号
@@ -31,4 +31,5 @@ zhang = "张"
 san = "三"
 print(zhang+san)
 print((zhang+san)*10)
-input(zhang)
+name1 = input("请输入名字：")
+print(name1)
