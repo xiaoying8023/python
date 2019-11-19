@@ -33,3 +33,16 @@ print(zhang+san)
 print((zhang+san)*10)
 name1 = input("请输入名字：")
 print(name1)
+
+# 输入苹果的单价
+price1_str = input("单价:")
+# 输入苹果重量
+weight_str = input("重量:")
+# 计算 注意两个字符串变量之间不能直接用乘法
+money_str = float(price1_str)*float(weight_str)
+print(money_str)
+# 格式化输出
+print("我的名字叫%s"%name)
+
+import keyword
+print(keyword.kwlist)
