@@ -50,3 +50,15 @@ name_list.sort(reverse=True)
 print(name_list)
 name_list.reverse()
 print(name_list)
+
+# 循环遍历，使用for循环迭代遍历(顺序的从列表中一次保存数据)，
+# 每一次循环都会保存在my_name这个变量中，在循环体内部可以访问当前这一次获取的数据
+"""
+for 变量 in 列表变量
+    语句
+"""
+for my_name in name_list:
+    print("我的名字叫：%s"%my_name)
+
+# 应用场景
+# 列表可以存储多个相同类型的数据
