@@ -19,3 +19,6 @@ def sum(a,b):
     sum = a+b
     print(sum)
     return sum
+# 求平方根
+num = 4**0.5
+print(num)
