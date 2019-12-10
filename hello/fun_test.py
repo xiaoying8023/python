@@ -22,3 +22,18 @@ def sum(a,b):
 # 求平方根
 num = 4**0.5
 print(num)
+
+#交换连个数
+#1、使用中间变量交换
+a=6
+b=200
+c=a
+a=b
+b=c
+#2、不使用中间变量交换
+a=a+b
+b=a-b
+a=a-b
+#3、python独有的交换方式
+a,b=b,a
+print(a,b)
