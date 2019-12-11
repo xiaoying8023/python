@@ -37,3 +37,36 @@ a=a-b
 #3、python独有的交换方式
 a,b=b,a
 print(a,b)
+
+
+#多值参数
+def demo(num,*nums,**person):
+    print (num)
+    print (nums)
+    print (person)
+
+demo(1,name="小明",age=18)
+#*args代表元组，**args代表字典
+def sun_num(*args):
+    num=0
+    print (args)
+    for n in args:
+        num+=n
+    print (args)
+    return num
+result = sun_num(1,2,3)
+print (result)
+#元组和字典拆包
+#调用参数时，在参数前加一个*，是元组，加两个*是字典
+
+#递归
+def sum_fun(num):
+    print (num)
+    if num==1:
+        return
+    sum_fun(num-1)
+sum_fun(3)
+
+
+
+
